@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+
+main{
+    margin: 0px;
+    padding: 0px;
+    width: 50vw;
+    margin:auto;
+}
+#titulo_1 { 
+    color: rgb(253, 0, 0);
+    background-color: rgb(rgb(54, 41, 41));
+}
+.texto_titulo1 {
+    color: blue;
+    background-color: rgb(15, 243, 247);
+}
+#titulo_2 { 
+    color: rgb(253, 0, 0);
+    background-color: rgb(rgb(54, 41, 41));
+}
+.texto_titulo2 {
+    color: blue;
+    background-color: rgb(15, 243, 247);
+}

@@ -1,0 +1,22 @@
+main{
+    margin: auto;
+    width: 80vw;
+    justify-content: center;
+}
+.box{
+    margin-top: 40px;
+}
+#box1{
+    border: 2px solid #3498db;    
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0005;    
+
+    padding: 10px;
+}
+#box2{
+    border: 2px solid #e74c3c;
+    border-radius: 15px;    
+    box-shadow: 10px 10px 10px #000;    
+
+    padding: 10px;
+}

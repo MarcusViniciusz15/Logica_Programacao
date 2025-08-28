@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80vw;
+    height: 50vh;
+    gap: 15px;
+    border: 2px solid #000;
+
+    box-shadow:  10px 10px 50px #0007;
+}
+
+#box1 {
+    border-width: 2px;
+    border-color: #08f;
+    border-style: solid;
+}
+
+#box2 {
+
+    height: 70px;
+    text-align: center;
+    border: 2px solid #3a8;
+    border-radius: 10px;
+
+}
+
+#box3 {
+    height:40%;
+
+    border-top: 2px solid #33f;
+    border-bottom: 2px dashed #3af;
+    border-left: 2px dotted #ff3;
+    border-right: 2px solid #2f3;
+
+    background-image: linear-gradient(45deg, #28f, #ff0, #0f0);
+
+}
