@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+
+    <input type="text" id="nome" placeholder="Nome do aluno">
+    <input type="number" id="nota" placeholder="Nota" min="0" max="10">
+    <button onclick="cadastrarAluno()">Cadastrar</button>
+    <button type="button" onclick="cancelarCadastro()">Cancelar</button>
+
+    <div>
+        <button onclick="filtrar('todos')">Todos</button>
+        <button onclick="filtrar('aprovados')">Aprovados</button>
+        <button onclick="filtrar('reprovados')">Reprovados</button>
+    </div>
+
+    <ul id="listaAlunos"></ul>
+    <script src="script.js"></script>
+
+</body>
+</html>
